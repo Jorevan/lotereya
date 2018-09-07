@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+.all-lottery {
+    max-width: 800px;
+    margin: auto;
+}
+
+.name-form {
+    width: 80%;
+    display: inline-block;
+}
+
+.input-fields {
+    width: 100%;
+    border: solid black 1px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.form-input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    float: right;
+}
+
+.form-text {
+    box-sizing: border-box;
+    text-align: right;
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+.form-group {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.reg-block {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.winner {
+    border: solid black 1px;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    display: inline-block;
+}
+
+.winner-button {
+    float: right;
+    height: 70px;
+    margin: auto;
+}
+
+.winner-button-block {
+    width: 20%;
+    float: right;
+}
+
+.winner-text {
+    float: left;
+    width: 20%;
+}
+
+.winner-name {
+    text-align: center;
+    width: 60%;
+    float: left;
+}
+
+.btn-block {
+    width: 100%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.send-button {
+    float: right;
+    width: 10%;
+}
+
+.table {
+    width: 80%;
+    margin: 10px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.table-hi {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table-cell {
+    border: solid 1px black;
+    text-align: center;
+}
+
+#invisible {
+    display: none;
+}
+
+.table-div {
+    width: 100%;
+}
+

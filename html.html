@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<div class="all-lottery">
+
+    <div class="winner">
+        <div class="winner-text">
+            <h2>Winner:</h2>
+        </div>
+        <div class="winner-name">
+            <h2 id="winner"></h2>
+        </div>
+        <div class="winner-button-block">
+            <button class="winner-button">New winner</button>
+        </div>
+    </div>
+
+    <form class="name-form">
+        <div class="input-fields">
+            <div class="reg-block">
+                <h2>Registration form</h2>
+            </div>
+            <div class="form-group">
+                <b class="form-text">Name*:</b>
+                <input type="text" class="form-input" id="name" placeholder="your name" required>
+            </div>
+            <div class="form-group">
+                <b class="form-text">Surname*:</b>
+                <input type="text" class="form-input" id="surname" placeholder="your surname" required>
+            </div>
+            <div class="form-group">
+                <b class="form-text">Email*:</b>
+                <input type="email" class="form-input" id="email" placeholder="your email" required>
+            </div>
+            <div class="form-group">
+                <b class="form-text">Phone:</b>
+                <input type="tel" pattern="[0-9]{10}" class="form-input" id="phone"
+                       placeholder="phone in format 0638353518">
+            </div>
+            <div class="form-group">
+                <b class="form-text">Date of Birth:</b>
+                <input type="date" pattern="[0-9]{10}" class="form-input" id="date"
+                       placeholder="your date of birth in format 06.05.1995">
+            </div>
+            <div class="form-group">
+                <label>*-Required field</label>
+            </div>
+        </div>
+        <div class="btn-block">
+            <button class="send-button">Save</button>
+        </div>
+    </form>
+
+    <table class="table">
+        <tr>
+            <th class="table-hi">Name</th>
+            <th class="table-hi">Surname</th>
+            <th class="table-hi">Email</th>
+            <th class="table-hi">Phone</th>
+            <th class="table-hi">Date of Birth</th>
+        </tr>
+    </table>
+
+    <table id="invisible">
+        <tr class="table-row" onclick="edit(this)">
+            <td class="table-cell name"></td>
+            <td class="table-cell surname"></td>
+            <td class="table-cell email"></td>
+            <td class="table-cell phone"></td>
+            <td class="table-cell date"></td>
+        </tr>
+    </table>
+</div>
+
+<script src="js.js"></script>
+</body>
+</html>
